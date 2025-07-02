@@ -4,8 +4,8 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 100 100"
-      aria-label="ContentCraft AI Logo"
+      viewBox="0 0 70 75"
+      aria-label="Content Craft AI Logo"
       {...props}
     >
       <defs>
@@ -14,8 +14,7 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
           <stop offset="100%" stopColor="#be4bdb" />
         </linearGradient>
       </defs>
-      <rect width="100" height="100" rx="20" fill="hsl(var(--primary))" />
-      <g transform="translate(15, 18) scale(0.75)">
+      <g transform="scale(0.75)">
         <path
           fill="url(#brain-gradient)"
           d="M50,15 C25,15 15,35 20,55 C15,75 30,90 50,90 C70,90 85,75 80,55 C85,35 75,15 50,15 Z"

@@ -4,7 +4,7 @@ export default function DemoVideo() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter text-foreground sm:text-4xl">
-            See ContentCraft AI in Action
+            See Content Craft AI in Action
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Watch how easy it is to generate high-quality, SEO-optimized content in just a few clicks.

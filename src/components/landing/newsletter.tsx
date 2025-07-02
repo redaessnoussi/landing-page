@@ -13,7 +13,7 @@ export default function Newsletter() {
                 Start Your Free Trial Today
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                Sign up now to get 30 days of free access to ContentCraft AI. No credit card required.
+                Sign up now to get 30 days of free access to Content Craft AI. No credit card required.
             </p>
         </div>
         <div className="mt-10 mx-auto w-full max-w-xl">

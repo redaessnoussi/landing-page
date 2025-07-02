@@ -7,7 +7,7 @@ const features = [
     icon: FileText,
     title: 'Title Generator',
     description: 'Generate dozens of catchy, SEO-friendly titles from your keywords in seconds. Pick the best one to start your article, just like in a real WordPress environment.',
-    image: 'https://placehold.co/800x600.png',
+    image: 'https://i.imgur.com/U5tde8i.png',
     dataAiHint: 'writing keywords',
     align: 'right',
   },
@@ -15,7 +15,7 @@ const features = [
     icon: Bot,
     title: 'Article Generator',
     description: 'Turn your chosen title into a complete, human-like article. Our AI handles the structure, content, and flow, ready for you to publish.',
-    image: 'https://placehold.co/800x600.png',
+    image: 'https://i.imgur.com/RljtNox.png',
     dataAiHint: 'ai writing',
     align: 'left',
   },
@@ -23,7 +23,7 @@ const features = [
     icon: ListChecks,
     title: 'Article Status & Management',
     description: 'Track your generated articles, check their status, and manage your content pipeline all in one place. See which articles are ready, in progress, or scheduled.',
-    image: 'https://placehold.co/800x600.png',
+    image: 'https://i.imgur.com/MwcDb0X.png',
     dataAiHint: 'task list',
     align: 'right',
   },
@@ -38,7 +38,7 @@ export default function ExtendedFeatures() {
             A Full Content Marketing Suite
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Go beyond generation. ContentCraft AI provides the tools you need to manage and optimize your entire content lifecycle.
+            Go beyond generation. Content Craft AI provides the tools you need to manage and optimize your entire content lifecycle.
           </p>
         </div>
         <div className="mt-12 space-y-16">

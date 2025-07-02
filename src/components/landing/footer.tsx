@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-6">
             <div className="flex items-center gap-2">
                 <Logo className="h-8 w-8 text-primary" />
-                <span className="font-headline text-lg font-bold">ContentCraft AI</span>
+                <span className="font-headline text-lg font-bold">Content Craft AI</span>
             </div>
-            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-primary-foreground/80">
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-primary-foreground">
               <Link href="#about" className="hover:underline">
                 About
               </Link>

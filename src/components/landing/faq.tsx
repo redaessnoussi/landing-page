@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Does it support multiple languages?',
-    answer: 'Yes, ContentCraft AI has robust multilingual capabilities, supporting English, French, Spanish, German, and a growing list of other languages to help you reach a global audience.',
+    answer: 'Yes, Content Craft AI has robust multilingual capabilities, supporting English, French, Spanish, German, and a growing list of other languages to help you reach a global audience.',
   },
   {
     question: 'How secure is the plugin?',
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: 'What happens when I uninstall the plugin?',
-    answer: 'Upon uninstallation, ContentCraft AI provides an option to cleanly remove all of its data from your database, including settings and generated content history, leaving no trace behind.',
+    answer: 'Upon uninstallation, Content Craft AI provides an option to cleanly remove all of its data from your database, including settings and generated content history, leaving no trace behind.',
   },
 ];
 
@@ -37,7 +37,7 @@ export default function Faq() {
                 Frequently Asked Questions
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                Find answers to common questions about ContentCraft AI.
+                Find answers to common questions about Content Craft AI.
             </p>
         </div>
         <div className="mt-10 mx-auto max-w-3xl">

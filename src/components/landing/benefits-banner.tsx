@@ -17,7 +17,7 @@ export default function BenefitsBanner() {
             Unlock Unprecedented Efficiency
             </h2>
             <p className="mt-4 text-lg text-primary-foreground/80">
-            ContentCraft AI is more than a tool—it's your new content strategy partner.
+            Content Craft AI is more than a tool—it's your new content strategy partner.
             </p>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
