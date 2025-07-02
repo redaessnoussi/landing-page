@@ -24,6 +24,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+
+  // basePath: '/content-craft-ai',
+  // assetPrefix: '/content-craft-ai/',
+  // output: 'export',
 };
 
 export default nextConfig;
