@@ -72,13 +72,12 @@ export default function ExtendedFeatures() {
               <div className="w-full">
                 <Card>
                   <CardContent className="p-2">
-                    <Image
+                    <img
                       src={feature.image}
                       alt={feature.title}
-                      width={800}
-                      height={600}
+                      width="800"
+                      height="600"
                       className="rounded-lg object-cover"
-                      data-ai-hint={feature.dataAiHint}
                     />
                   </CardContent>
                 </Card>
