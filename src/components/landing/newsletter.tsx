@@ -10,15 +10,13 @@ export default function Newsletter() {
                 Stay up to date with the latest features, tips, and special offers.
             </p>
         </div>
-        <div className="mt-10 mx-auto max-w-xl">
+        <div className="mt-10 mx-auto w-full max-w-[540px]">
           <iframe 
-            width="540" 
-            height="305" 
             src="https://914a2849.sibforms.com/serve/MUIFAIEK9q0wSP2n7ZIFK43Z3-C4tK4ELgUOr9eXnHxpauNZcNux9sV-hOFD53avJMzbqw7oXrfEZpIqKjPaTAcmiqkMXWoXuo0nH3SM1v5S1DgTWQ5eMNlROsWel711QGIarBexAVe5mz1AIG65qv6F6n5CmxRLiatTwgYGGniImp6RAnmnQvWAOSWXdhuMnqUVQ2DKFcC9m-QQ" 
             frameBorder="0" 
             scrolling="auto" 
-            allowFullScreen 
-            style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}>
+            className="w-full h-[305px]"
+            allowFullScreen>
           </iframe>
         </div>
       </div>
