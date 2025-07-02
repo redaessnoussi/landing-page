@@ -7,7 +7,8 @@ export default function DemoVideo() {
             See Content Craft AI in Action
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Watch how easy it is to generate high-quality, SEO-optimized content in just a few clicks.
+            Watch how easy it is to generate high-quality, SEO-optimized content
+            in just a few clicks.
           </p>
         </div>
         <div className="mt-10 mx-auto max-w-4xl">

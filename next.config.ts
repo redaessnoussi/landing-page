@@ -1,4 +1,4 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -11,23 +11,22 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "placehold.co",
+        port: "",
+        pathname: "/**",
       },
       {
-        protocol: 'https',
-        hostname: 'i.imgur.com',
-        port: '',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "i.imgur.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
 
-  // basePath: '/content-craft-ai',
-  // assetPrefix: '/content-craft-ai/',
-  // output: 'export',
+  basePath: "/content-craft-ai",
+  assetPrefix: "/content-craft-ai/",
 };
 
 export default nextConfig;
