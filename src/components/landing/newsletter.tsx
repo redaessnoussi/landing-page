@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -9,10 +10,10 @@ export default function Newsletter() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Join Our Mailing List
+                Start Your Free Trial Today
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-                Stay up to date with the latest features, tips, and special offers.
+                Sign up now to get 30 days of free access to ContentCraft AI. No credit card required.
             </p>
         </div>
         <div className="mt-10 mx-auto w-full max-w-xl">
@@ -42,7 +43,7 @@ export default function Newsletter() {
                   />
                 </div>
                 <Button type="submit" className="w-full bg-foreground hover:bg-foreground/90 text-background font-bold">
-                  Yes, Send Me the Demo!
+                  Start My Free Trial
                 </Button>
                 <input type="text" name="email_address_check" value="" className="hidden" readOnly />
                 <input type="hidden" name="locale" value="en" />
