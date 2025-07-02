@@ -8,24 +8,46 @@ export default function Logo(props: SVGProps<SVGSVGElement>) {
       aria-label="ContentCraft AI Logo"
       {...props}
     >
-      <g fill="currentColor">
-        <rect width="100" height="100" rx="20" fill="hsl(var(--primary))" />
+      <defs>
+        <linearGradient id="brain-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#f783ac" />
+          <stop offset="100%" stopColor="#be4bdb" />
+        </linearGradient>
+      </defs>
+      <rect width="100" height="100" rx="20" fill="hsl(var(--primary))" />
+      <g transform="translate(15, 18) scale(0.75)">
         <path
-          d="M30 70 L30 30 L50 30 C65 30 65 45 50 45 L30 45"
-          stroke="hsl(var(--primary-foreground))"
-          strokeWidth="8"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          fill="url(#brain-gradient)"
+          d="M50,15 C25,15 15,35 20,55 C15,75 30,90 50,90 C70,90 85,75 80,55 C85,35 75,15 50,15 Z"
         />
         <path
-          d="M70 70 L70 30"
-          stroke="hsl(var(--accent))"
-          strokeWidth="8"
-          fill="none"
+          d="M50,15 C55,45 45,65 50,90"
+          stroke="rgba(255,255,255,0.5)"
+          strokeWidth="4"
           strokeLinecap="round"
+          fill="none"
         />
-        <circle cx="70" cy="57.5" r="4" fill="hsl(var(--accent))" />
+        <path
+          d="M38,40 C30,45 30,60 40,65"
+          stroke="rgba(255,255,255,0.3)"
+          strokeWidth="3"
+          strokeLinecap="round"
+          fill="none"
+        />
+         <path
+          d="M62,40 C70,45 70,60 60,65"
+          stroke="rgba(255,255,255,0.3)"
+          strokeWidth="3"
+          strokeLinecap="round"
+          fill="none"
+        />
+         <path
+          d="M45,75 C38,78 38,70 45,70"
+          stroke="rgba(255,255,255,0.3)"
+          strokeWidth="3"
+          strokeLinecap="round"
+          fill="none"
+        />
       </g>
     </svg>
   );
