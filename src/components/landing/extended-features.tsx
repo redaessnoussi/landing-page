@@ -1,39 +1,31 @@
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
-import { CalendarDays, Link as LinkIcon, Image as ImageIcon, BarChart } from 'lucide-react';
+import { FileText, Bot, ListChecks } from 'lucide-react';
 
 const features = [
   {
-    icon: CalendarDays,
-    title: 'Scheduling & Calendar',
-    description: 'Plan your content months in advance with our intuitive drag-and-drop calendar. Automate your publishing schedule and never miss a deadline again.',
+    icon: FileText,
+    title: 'Title Generator',
+    description: 'Generate dozens of catchy, SEO-friendly titles from your keywords in seconds. Pick the best one to start your article, just like in a real WordPress environment.',
     image: 'https://placehold.co/800x600.png',
-    dataAiHint: 'scheduling calendar',
+    dataAiHint: 'writing keywords',
     align: 'right',
   },
   {
-    icon: LinkIcon,
-    title: 'Smart Linking',
-    description: 'Our AI automatically suggests relevant internal and external links to improve your site\'s SEO and user engagement. Build a powerful link structure effortlessly.',
+    icon: Bot,
+    title: 'Article Generator',
+    description: 'Turn your chosen title into a complete, human-like article. Our AI handles the structure, content, and flow, ready for you to publish.',
     image: 'https://placehold.co/800x600.png',
-    dataAiHint: 'smart linking',
+    dataAiHint: 'ai writing',
     align: 'left',
   },
   {
-    icon: ImageIcon,
-    title: 'AI Image Integration',
-    description: 'Automatically generate unique, royalty-free featured images for your articles. Match your content\'s tone and style with stunning visuals created on the fly.',
+    icon: ListChecks,
+    title: 'Article Status & Management',
+    description: 'Track your generated articles, check their status, and manage your content pipeline all in one place. See which articles are ready, in progress, or scheduled.',
     image: 'https://placehold.co/800x600.png',
-    dataAiHint: 'image generation',
+    dataAiHint: 'task list',
     align: 'right',
-  },
-  {
-    icon: BarChart,
-    title: 'Performance Tracking',
-    description: 'Monitor your content\'s traffic, keyword rankings, and engagement directly from your WordPress dashboard. Make data-driven decisions to grow your audience.',
-    image: 'https://placehold.co/800x600.png',
-    dataAiHint: 'analytics dashboard',
-    align: 'left',
   },
 ];
 

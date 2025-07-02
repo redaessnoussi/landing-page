@@ -14,7 +14,7 @@ export default function Header() {
         </Link>
         <div className="flex items-center gap-4">
           <Button asChild>
-            <Link href="#pricing">Get Started</Link>
+            <Link href="https://wordpress.org/plugins/content-craft-ai" target="_blank" rel="noopener noreferrer">Get Started</Link>
           </Button>
         </div>
       </div>

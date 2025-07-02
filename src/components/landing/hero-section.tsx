@@ -15,7 +15,7 @@ export default function HeroSection() {
                 </p>
                 <div className="mt-8 flex justify-center gap-4">
                     <Button asChild size="lg">
-                        <Link href="#pricing">
+                        <Link href="https://wordpress.org/plugins/content-craft-ai" target="_blank" rel="noopener noreferrer">
                         Get Started
                         <MoveRight className="ml-2 h-5 w-5" />
                         </Link>

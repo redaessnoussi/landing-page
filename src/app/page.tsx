@@ -7,10 +7,13 @@ import BenefitsBanner from '@/components/landing/benefits-banner';
 import Faq from '@/components/landing/faq';
 import Pricing from '@/components/landing/pricing';
 import Footer from '@/components/landing/footer';
+import CountdownBanner from '@/components/landing/countdown-banner';
+import Newsletter from '@/components/landing/newsletter';
 
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
+      <CountdownBanner />
       <Header />
       <main className="flex-1">
         <HeroSection />
@@ -19,6 +22,7 @@ export default function Home() {
         <ExtendedFeatures />
         <BenefitsBanner />
         <Faq />
+        <Newsletter />
         <Pricing />
       </main>
       <Footer />
