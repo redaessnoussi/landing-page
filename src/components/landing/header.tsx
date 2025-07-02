@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import Logo from '@/components/logo';
+import { EmailCaptureDialog } from './email-capture-dialog';
 
 export default function Header() {
   return (
@@ -13,9 +14,9 @@ export default function Header() {
           </span>
         </Link>
         <div className="flex items-center gap-4">
-          <Button asChild>
-            <Link href="https://wordpress.org/plugins/content-craft-ai" target="_blank" rel="noopener noreferrer">Get Started</Link>
-          </Button>
+          <EmailCaptureDialog>
+            <Button>Get Started</Button>
+          </EmailCaptureDialog>
         </div>
       </div>
     </header>

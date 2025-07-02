@@ -1,16 +1,16 @@
-import Link from 'next/link';
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, X } from 'lucide-react';
+import { EmailCaptureDialog } from './email-capture-dialog';
 
 const plans = [
   {
     name: 'Free',
     price: '$0',
-    priceDescription: 'forever',
+    priceDescription: 'for 30 days',
     description: 'Get started with our core features for free.',
     cta: 'Get Started Free',
-    link: 'https://wordpress.org/plugins/content-craft-ai',
     features: [
       { text: '5 Articles/Month', included: true },
       { text: '500 Words/Article', included: true },
@@ -22,11 +22,10 @@ const plans = [
   },
   {
     name: 'Basic',
-    price: '$29',
+    price: '$19.99',
     priceDescription: '/ month',
     description: 'Perfect for content creators and bloggers.',
     cta: 'Choose Basic',
-    link: 'https://wordpress.org/plugins/content-craft-ai',
     features: [
       { text: '50 Articles/Month', included: true },
       { text: '1000 Words/Article', included: true },
@@ -38,11 +37,10 @@ const plans = [
   },
   {
     name: 'Pro',
-    price: '$79',
+    price: '$29.99',
     priceDescription: '/ month',
     description: 'For power users and agencies scaling content.',
     cta: 'Choose Pro',
-    link: 'https://wordpress.org/plugins/content-craft-ai',
     features: [
       { text: '150 Articles/Month', included: true },
       { text: '2000 Words/Article', included: true },
@@ -97,9 +95,11 @@ export default function Pricing() {
                     </ul>
                 </CardContent>
                 <CardFooter>
-                    <Button asChild size="lg" className="w-full text-lg" variant={plan.highlight ? 'default' : 'outline'}>
-                        <Link href={plan.link} target="_blank" rel="noopener noreferrer">{plan.cta}</Link>
-                    </Button>
+                    <EmailCaptureDialog>
+                      <Button size="lg" className="w-full text-lg" variant={plan.highlight ? 'default' : 'outline'}>
+                        {plan.cta}
+                      </Button>
+                    </EmailCaptureDialog>
                 </CardFooter>
             </Card>
           ))}

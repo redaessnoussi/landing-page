@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { MoveRight } from 'lucide-react';
+import { EmailCaptureDialog } from './email-capture-dialog';
 
 export default function HeroSection() {
   return (
@@ -14,12 +14,12 @@ export default function HeroSection() {
                 Bypass AI detectors like GPTZero & Originality.ai with advanced GPT-4 power.
                 </p>
                 <div className="mt-8 flex justify-center gap-4">
-                    <Button asChild size="lg">
-                        <Link href="https://wordpress.org/plugins/content-craft-ai" target="_blank" rel="noopener noreferrer">
+                    <EmailCaptureDialog>
+                      <Button size="lg">
                         Get Started
                         <MoveRight className="ml-2 h-5 w-5" />
-                        </Link>
-                    </Button>
+                      </Button>
+                    </EmailCaptureDialog>
                 </div>
             </div>
         </div>
